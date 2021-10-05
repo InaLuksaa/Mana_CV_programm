@@ -1,0 +1,20 @@
+body {
+  background-color: #82a43a; 
+}
+#purple {
+  background-color: #893AA4;
+}
+.box {
+  background: #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 2%;
+  height: 50px;
+}
+.box1{
+  border-inline: 5px solid red;
+  writing-mode: horizontal-tb;
+}
+.flip {
+  -webkit-transform: rotateY(180deg);
